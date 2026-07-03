@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad CCTV & Security Solutions | Pattoki</title>
+    <meta name="description" content="Professional CCTV installation, networking, biometric attendance, and security solutions in Pattoki. Security You Can Trust. Contact 03026980386.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandDark: '#0A0A0A',
+                        brandGray: '#1F1F1F',
+                        brandLight: '#F5F5F5',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brandLight text-brandDark font-sans antialiased">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="fixed w-full bg-brandDark text-white z-50 shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#home" class="flex items-center space-x-2">
+                <i class="fas fa-shield-alt text-2xl text-white"></i>
+                <span class="font-bold text-lg tracking-wider uppercase">Ahmad CCTV</span>
+            </a>
+            
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex space-x-8 text-sm font-medium tracking-wide uppercase">
+                <a href="#home" class="hover:text-gray-400 transition">Home</a>
+                <a href="#about" class="hover:text-gray-400 transition">About Us</a>
+                <a href="#services" class="hover:text-gray-400 transition">Services</a>
+                <a href="#gallery" class="hover:text-gray-400 transition">Gallery</a>
+                <a href="#contact" class="hover:text-gray-400 transition">Contact</a>
+            </nav>
+
+            <!-- Call to Action -->
+            <div class="hidden md:block">
+                <a href="tel:03026980386" class="bg-white text-brandDark px-4 py-2 text-sm font-bold rounded hover:bg-gray-200 transition">
+                    <i class="fas fa-phone-alt mr-2"></i>Call Now
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-white focus:outline-none" aria-label="Toggle Menu">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Menu -->
+        <div id="mobile-menu" class="hidden bg-brandGray text-white px-4 py-4 space-y-3 md:hidden">
+            <a href="#home" class="block py-2 border-b border-gray-800">Home</a>
+            <a href="#about" class="block py-2 border-b border-gray-800">About Us</a>
+            <a href="#services" class="block py-2 border-b border-gray-800">Services</a>
+            <a href="#gallery" class="block py-2 border-b border-gray-800">Gallery</a>
+            <a href="#contact" class="block py-2">Contact</a>
+        </div>
+    </header>
+
+    <!-- 1. HOME PAGE (HERO SECTION) -->
+    <section id="home" class="pt-24 min-h-screen flex items-center bg-brandDark text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] bg-[size:40px_40px]"></div>
+        
+        <div class="container mx-auto px-4 py-16 grid md:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="space-y-6">
+                <div class="inline-block border border-gray-500 px-3 py-1 text-xs uppercase tracking-widest text-gray-400 rounded-full">
+                    Premium Security Systems
+                </div>
+                <h1 class="text-4xl md:text-6xl font-black tracking-tight leading-none">
+                    Security You <br><span class="text-gray-400">Can Trust.</span>
+                </h1>
+                <p class="text-gray-400 text-lg max-w-md">
+                    Ahmad CCTV & Security Solutions offers top-tier surveillance, networking, and biometric systems in Pattoki to keep your home and business safe 24/7.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                    <a href="#services" class="bg-white text-brandDark px-6 py-3 rounded font-bold text-center hover:bg-gray-200 transition">
+                        Explore Services
+                    </a>
+                    <a href="#contact" class="border border-white text-white px-6 py-3 rounded font-bold text-center hover:bg-white hover:text-brandDark transition">
+                        Get a Free Quote
+                    </a>
+                </div>
+            </div>
+            <div class="hidden md:flex justify-center relative">
+                <div class="w-80 h-80 rounded-full border-4 border-dashed border-gray-700 flex items-center justify-center animate-[spin_100s_linear_infinite]"></div>
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-brandGray p-8 rounded-2xl shadow-2xl border border-gray-800 text-center w-64">
+                    <i class="fas fa-video text-6xl text-white mb-4 block"></i>
+                    <span class="text-sm tracking-widest text-gray-400 uppercase">24/7 Protection</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. ABOUT US PAGE -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-gray-500 font-bold mb-2">Who We Are</h2>
+                <p class="text-3xl md:text-4xl font-bold tracking-tight">Your Trusted Security Partner in Pattoki</p>
+                <div class="w-16 h-1 bg-brandDark mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+                <div class="space-y-6">
+                    <p class="text-gray-700 leading-relaxed text-lg">
+                        At <strong>Ahmad CCTV & Security Solutions</strong>, we specialize in delivering cutting-edge security and networking infrastructure. Whether you need surveillance setup for your home, commercial property, or advanced biometric controls for your office, we ensure peace of mind with tailored tech deployment.
+                    </p>
+                    <p class="text-gray-600">
+                        Based proudly in Pattoki, Pakistan, our core values focus strictly on technological reliability, premium quality hardware, and immaculate customer support.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 pt-4">
+                        <div class="p-4 bg-brandLight rounded border border-gray-200">
+                            <h4 class="font-bold text-xl">100%</h4>
+                            <p class="text-sm text-gray-600">Customer Trust</p>
+                        </div>
+                        <div class="p-4 bg-brandLight rounded border border-gray-200">
+                            <h4 class="font-bold text-xl">Expert</h4>
+                            <p class="text-sm text-gray-600">Certified Installers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-brandDark text-white p-8 rounded-xl space-y-6">
+                    <h3 class="text-xl font-bold border-b border-gray-800 pb-2">Why Choose Us?</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check-circle mt-1 text-gray-400"></i>
+                            <span>High-definition cameras with night-vision capabilities.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check-circle mt-1 text-gray-400"></i>
+                            <span>Seamless cloud and remote mobile monitoring setups.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check-circle mt-1 text-gray-400"></i>
+                            <span>Clean cable management and structured wiring layouts.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check-circle mt-1 text-gray-400"></i>
+                            <span>Rapid maintenance and reliable after-sales repair support.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SERVICES PAGE -->
+    <section id="services" class="py-24 bg-brandLight">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-gray-500 font-bold mb-2">What We Offer</h2>
+                <p class="text-3xl md:text-4xl font-bold tracking-tight">Professional Security & Networking Solutions</p>
+                <div class="w-16 h-1 bg-brandDark mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Service 1 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">CCTV Camera Installation</h3>
+                    <p class="text-gray-600 text-sm">Professional setup of indoor and outdoor analog and HD cameras customized for optimal view angles.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Wireless Camera Setup</h3>
+                    <p class="text-gray-600 text-sm">Smart Wi-Fi security camera deployment with wire-free aesthetics and direct application link alerts.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-compress-arrows-alt"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">PTZ Camera Installation</h3>
+                    <p class="text-gray-600 text-sm">Pan-Tilt-Zoom high-grade machinery for wide perimeter scans controlled manually or on loop schedules.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-hdd"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">DVR / NVR Setup</h3>
+                    <p class="text-gray-600 text-sm">Configuring high-capacity Digital and Network Video Recorders with secure cloud backups and system loops.</p>
+                </div>
+                <!-- Service 5 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Networking Solutions</h3>
+                    <p class="text-gray-600 text-sm">Flawless LAN/WAN configurations, routers, switches setup, and robust connectivity environments.</p>
+                </div>
+                <!-- Service 6 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-fingerprint"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Biometric Systems</h3>
+                    <p class="text-gray-600 text-sm">Automate door lock access control and secure perimeters using advanced fingerprint scanners or facial recognition.</p>
+                </div>
+                <!-- Service 7 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Attendance Systems</h3>
+                    <p class="text-gray-600 text-sm">Digital clock-in tracking software configurations for corporate offices, shops, and industries.</p>
+                </div>
+                <!-- Service 8 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-phone-volume"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Intercom Systems</h3>
+                    <p class="text-gray-600 text-sm">Audio and video gate-entry door answering systems for residential homes and corporate layouts.</p>
+                </div>
+                <!-- Service 9 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Cable Wiring</h3>
+                    <p class="text-gray-600 text-sm">Structured, professional, and hidden cable management layouts protecting signals from open weathering.</p>
+                </div>
+                <!-- Service 10 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Maintenance & Repair</h3>
+                    <p class="text-gray-600 text-sm">Prompt onsite diagnostic troubleshooting, lens replacement, and signal fix inspections.</p>
+                </div>
+                <!-- Service 11 -->
+                <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-brandDark text-white rounded flex items-center justify-center mb-4 text-xl">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Remote Monitoring Setup</h3>
+                    <p class="text-gray-600 text-sm">Link your existing security screens directly onto your mobile phones, laptops or tablets effortlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. GALLERY PAGE (CLEAR & BRIGHT IMAGES) -->
+    <section id="gallery" class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-gray-500 font-bold mb-2">Our Work</h2>
+                <p class="text-3xl md:text-4xl font-bold tracking-tight">Recent Deployments & Hardware</p>
+                <div class="w-16 h-1 bg-brandDark mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+                <!-- Image 1 - CCTV Camera -->
+                <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md group relative h-72 border border-gray-200">
+                    <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=500&q=80" alt="Commercial CCTV" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4 text-white">
+                        <p class="font-bold text-base shadow-sm">Commercial CCTV Setup</p>
+                        <p class="text-xs text-gray-300">Pattoki Market</p>
+                    </div>
+                </div>
+                <!-- Image 2 - Server Rack -->
+                <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md group relative h-72 border border-gray-200">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=500&q=80" alt="Server Cabinet" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4 text-white">
+                        <p class="font-bold text-base shadow-sm">Server Cabinet Rack</p>
+                        <p class="text-xs text-gray-300">Corporate Office</p>
+                    </div>
+                </div>
+                <!-- Image 3 - Biometric Control -->
+                <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md group relative h-72 border border-gray-200">
+                    <img src="https://images.unsplash.com/photo-1620283085439-39620a1e21c4?auto=format&fit=crop&w=500&q=80" alt="Biometric Access" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4 text-white">
+                        <p class="font-bold text-base shadow-sm">Biometric Access Gate</p>
+                        <p class="text-xs text-gray-300">Industrial Complex</p>
+                    </div>
+                </div>
+                <!-- Image 4 - Smart IP Camera -->
+                <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md group relative h-72 border border-gray-200">
+                    <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=500&q=80" alt="Smart Home Cameras" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4 text-white">
+                        <p class="font-bold text-base shadow-sm">Smart Home IP Cameras</p>
+                        <p class="text-xs text-gray-300">Residential Area</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. CONTACT PAGE -->
+    <section id="contact" class="py-24 bg-brandDark text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-2">Get In Touch</h2>
+                <p class="text-3xl md:text-4xl font-bold tracking-tight">Let's Secure Your Property</p>
+                <div class="w-16 h-1 bg-white mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <!-- Info block -->
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 uppercase tracking-wider text-gray-300">Contact Information</h3>
+                        <p class="text-gray-400">Reach out to us today for free assessments, pricing details, or dynamic project planning.</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-10 h-10 border border-gray-700 flex items-center justify-center rounded text-gray-300">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-500 uppercase">Location</p>
+                                <p class="font-medium text-gray-200">Pattoki, Punjab, Pakistan</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-4">
+                            <div class="w-10 h-10 border border-gray-700 flex items-center justify-center rounded text-gray-300">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-500 uppercase">Phone / Call</p>
+                                <a href="tel:03026980386" class="font-medium text-white hover:underline">0302 6980386</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-4">
+                            <div class="w-10 h-10 border border-gray-700 flex items-center justify-center rounded text-gray-300">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-500 uppercase">Email Address</p>
+                                <a href="mailto:ahmad.cctvservices@gmail.com" class="font-medium text-white hover:underline">ahmad.cctvservices@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Section -->
+                <div class="bg-brandGray p-6 rounded-lg border border-gray-800">
+                    <form action="#" method="POST" class="space-y-4" onsubmit="alert('Thank you for reaching out! We will contact you shortly.'); return false;">
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-gray-400 mb-1">Your Name</label>
+                            <input type="text" required class="w-full bg-brandDark border border-gray-700 rounded px-4 py-2 text-white focus:outline-none focus:border-white">
+                        </div>
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-gray-400 mb-1">Phone Number</label>
+                            <input type="tel" required class="w-full bg-brandDark border border-gray-700 rounded px-4 py-2 text-white focus:outline-none focus:border-white">
+                        </div>
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-gray-400 mb-1">Message Requirements</label>
+                            <textarea rows="4" required class="w-full bg-brandDark border border-gray-700 rounded px-4 py-2 text-white focus:outline-none focus:border-white" placeholder="E.g., I need 4 CCTV cameras installed at my house..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-white text-brandDark font-bold py-2 px-4 rounded hover:bg-gray-200 transition uppercase tracking-wider text-sm">
+                            Submit Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-brandDark text-gray-500 text-xs py-8 border-t border-gray-900">
+        <div class="container mx-auto px-4 text-center space-y-2">
+            <p class="text-gray-400 font-bold tracking-wider uppercase">Ahmad CCTV & Security Solutions</p>
+            <p>&ldquo;Security You Can Trust&rdquo;</p>
+            <p class="pt-4">&copy; 2026 Ahmad CCTV. All Rights Reserved. Designed for Professional Reliability.</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON (SMART REDIRECT SCRIPT ATTACHED) -->
+    <button onclick="openWhatsApp()" 
+       class="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition duration-300 z-50 focus:outline-none"
+       title="Chat via WhatsApp">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script>
+        // Smart WhatsApp Redirect
+        function openWhatsApp() {
+            var number = "923026980386";
+            var text = encodeURIComponent("Hi Ahmad CCTV, I am interested in your security and networking services.");
+            
+            try {
+                // Pehle modern method try karein ge jo har browser support karta hai
+                window.open("https://api.whatsapp.com/send?phone=" + number + "&text=" + text, "_blank");
+            } catch(e) {
+                // Fallback option agar browser directly handle na kar sakay
+                window.location.href = "https://wa.me/" + number + "?text=" + text;
+            }
+        }
+
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        const links = mobileMenu.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
